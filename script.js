@@ -43,7 +43,7 @@ $(document).ready(function () {
         }
 
         function tirarPonto(jogador) {
-            if (jogador.pontos >= 2) {
+            if (jogador.pontos >= 1) {
                 jogador.pontos--;
                 atualizarTabela();
                 salvarDados(jogadores);
